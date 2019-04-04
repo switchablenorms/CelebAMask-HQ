@@ -11,7 +11,7 @@ CelebAMask-HQ can be used on several applications including: face parsing, face 
 ## Downloads
 * Google Drive: link
 * Baidu Pan: link
-* To get the password of data compression, please fill the google sheet first: link
+* To obtain the password for data compression, please fill the google sheet: link
 ## Related work
 
 
