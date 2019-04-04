@@ -1,6 +1,19 @@
 # CelebAMask-HQ
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/front.png)
-We build a large-scale face semantic label dataset named CelebAMask-HQ, which was labeled according to CelebA-HQ that contains 30000 high-resolution face images.
-CelebAMask-HQ was precisely hand-annotated with the size of 512 x 512 and 19 classes including all facial components and accessories such as skin, nose, eyes, eyebrows, ears, mouth, lip, hair, hat, eyeglass, earring, necklace, neck, and cloth. 
+CelebAMask-HQ was a large-scale high-resolution face semantic dataset with **30000** high-resolution face images and mask annotations.
+CelebAMask-HQ was precisely hand-annotated with the size of **512 x 512** and **19 classes** including all facial components and accessories such as skin, nose, eyes, eyebrows, ears, mouth, lip, hair, hat, eyeglass, earring, necklace, neck, and cloth. 
 For occlusion handling, if the facial component was partly occluded, we label the residual parts of the components.
 On the other hand, we skip the annotations for those components that are totally occluded.
+## Sample Images
+
+## Applications
+CelebAMask-HQ can be used on several applications including: face parsing, face hallucination, facial image manipulation.
+## Downloads
+* Google Drive: link
+* Baidu Pan: link
+* To get the password of data compression, please fill the google sheet first: link
+## Related work
+
+
+## Note
+
