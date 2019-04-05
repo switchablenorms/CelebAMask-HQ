@@ -6,8 +6,8 @@ For occlusion handling, if the facial component was partly occluded, we label th
 On the other hand, we skip the annotations for those components that are totally occluded.
 ## Sample Images
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample.png)
-## Applications
-CelebAMask-HQ can be used on several applications including: facial image manipulation, face parsing, and face hallucination. We construct an application on interactive facial image manipulation as bellow:
+## Research Projects with CelebAMask-HQ
+CelebAMask-HQ can be used on several applications including: facial image manipulation, face parsing, and face hallucination. We construct an application on interactive facial image manipulation as bellow (Paper coming soon !) :
 * Demo of interactive facial image manipulation
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/demo.gif)
 * Samples of interactive facial image manipulation
@@ -17,9 +17,9 @@ CelebAMask-HQ can be used on several applications including: facial image manipu
 * Baidu Pan: link
 * To obtain the password for folder decompression, please fill the google sheet: link
 ## Related work
-* **CelebA** dataset:<br/>
+* **CelebA** dataset :<br/>
 Liu et. al, "Deep Learning Face Attributes in the Wild", in IEEE International Conference on Computer Vision (ICCV), 2015 
-* **CelebA-HQ** was collected from CelebA and further post-processed by the following paper:<br/>
+* **CelebA-HQ** was collected from CelebA and further post-processed by the following paper :<br/>
 Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and Variation", in Internation Conference on Reoresentation Learning (ICLR), 2018
 ## Citation
 [Paper coming soon !]
