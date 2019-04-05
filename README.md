@@ -7,7 +7,7 @@ On the other hand, we skip the annotations for those components that are totally
 ## Sample Images
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample.png)
 ## Research Projects with CelebAMask-HQ
-CelebAMask-HQ can be used on several applications including: facial image manipulation, face parsing, and face hallucination. We construct an application on interactive facial image manipulation as bellow (Paper coming soon !) :
+CelebAMask-HQ can be used on several research fields including: facial image manipulation, face parsing, and face hallucination. We construct an application on interactive facial image manipulation as bellow (Paper coming soon !) :
 * Demo of interactive facial image manipulation
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/demo.gif)
 * Samples of interactive facial image manipulation
