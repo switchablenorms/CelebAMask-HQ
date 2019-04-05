@@ -11,17 +11,16 @@ CelebAMask-HQ can be used on several applications including: facial image manipu
 * Demo of interactive facial image manipulation
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/demo.gif)
 * Samples of interactive facial image manipulation
-![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample.png)
+![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample_interactive.png)
 ## Downloads
 * Google Drive: link
 * Baidu Pan: link
 * To obtain the password for data compression, please fill the google sheet: link
 ## Related work
-* CelebA dataset
-Liu et. al, "Deep Learning Face Attributes in the Wild", in IEEE International Conference on Computer Vision (ICCV), 2015 
-
-* CelebA-HQ was collected from CelebA and further postprocessed by the following paper.
-Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and Variation", in Internation Conference on Reoresentation Learning (ICLR), 2018
+* CelebA dataset:
+  Liu et. al, "Deep Learning Face Attributes in the Wild", in IEEE International Conference on Computer Vision (ICCV), 2015 
+* CelebA-HQ was collected from CelebA and further postprocessed by the following paper:
+  Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and Variation", in Internation Conference on Reoresentation Learning (ICLR), 2018
 ## Citation
 [Paper Coming Soon !]
 
