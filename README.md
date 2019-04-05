@@ -22,5 +22,5 @@ Liu et. al, "Deep Learning Face Attributes in the Wild", in IEEE International C
 * **CelebA-HQ** was collected from CelebA and further post-processed by the following paper:<br/>
 Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and Variation", in Internation Conference on Reoresentation Learning (ICLR), 2018
 ## Citation
-[Paper Coming Soon !]
+[Paper coming soon !]
 
