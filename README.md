@@ -10,15 +10,14 @@ CelebAMask-HQ can be used to **train and evaluate algorithms of face parsing, fa
 ## Sample Images
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample.png)
 ## Research Projects with CelebAMask-HQ
-CelebAMask-HQ can be used on several research fields including: facial image manipulation, face parsing, and face hallucination. We construct an application on interactive facial image manipulation as bellow:
+CelebAMask-HQ can be used on several research fields including: facial image manipulation, face parsing, face recognition, and face hallucination. We construct an application on interactive facial image manipulation as bellow:
 
 * Samples of interactive facial image manipulation
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample_interactive.png)
 
 ## Downloads
-* Google Drive: [link](https://drive.google.com/file/d/1GLJzUIzHrWUxG3s_Z2d2rYZ1yh_18BeQ/view?usp=sharing)
+* Google Drive: link
 * Baidu Pan will be released soon.
-* To obtain the password for folder decompression, please fill the google sheet: link
 ## Related work
 * **CelebA** dataset :<br/>
 Ziwei Liu, Ping Luo, Xiaogang Wang and Xiaoou Tang, "Deep Learning Face Attributes in the Wild", in IEEE International Conference on Computer Vision (ICCV), 2015 
