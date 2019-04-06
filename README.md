@@ -34,8 +34,9 @@ Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and
 @article{CelebAMask-HQ,
   title={MaskGAN: Towards Diverse and Interactive Facial Image Manipulation},
   author={Cheng-Han Lee and Ziwei Liu and Lingyun Wu and Ping Luo},
-  journal={Technical Report (in submission)},
+  journal={Technical Report},
   year={2019}
 }
 ```
+The above work is still in submission.
 
