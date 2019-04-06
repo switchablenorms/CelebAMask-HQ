@@ -6,6 +6,8 @@ The masks of CelebAMask-HQ were manually-annotated with the size of **512 x 512*
 
 CelebAMask-HQ can be used to **train and evaluate algorithms of face parsing, face recognition, and GANs for face generation and editing**.
 
+* If you need the identity labels and the attribute labels of the images, please send request to the CelebA team.
+
 * Demo of interactive facial image manipulation
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/demo.gif)
 
