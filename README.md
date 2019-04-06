@@ -16,8 +16,9 @@ CelebAMask-HQ can be used on several research fields including: facial image man
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample_interactive.png)
 
 ## Downloads
-* Google Drive: link
+* Google Drive: [link](https://drive.google.com/file/d/1Zr1cqfBSr66bPvESD9PdkI-jslG4vBty/view?usp=sharing)
 * Baidu Pan will be released soon.
+
 ## Related work
 * **CelebA** dataset :<br/>
 Ziwei Liu, Ping Luo, Xiaogang Wang and Xiaoou Tang, "Deep Learning Face Attributes in the Wild", in IEEE International Conference on Computer Vision (ICCV), 2015 
