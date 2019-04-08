@@ -21,15 +21,17 @@ CelebAMask-HQ can be used on several research fields including: facial image man
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample_interactive.png)
 
 ## Downloads
-* Google Drive: [link](https://drive.google.com/file/d/1Zr1cqfBSr66bPvESD9PdkI-jslG4vBty/view?usp=sharing)
-* Baidu Pan will be released soon.
+* Google Drive: [downloading link](https://drive.google.com/open?id=1JP_Db1PW75K3B4KaiSwnxF1Fc-wSRz6Q)
+* Baidu Drive: [downloading link](https://pan.baidu.com/s/187UzrhZ24V6aG99p6UPdMA)
 
 ## Related work
 * **CelebA** dataset :<br/>
 Ziwei Liu, Ping Luo, Xiaogang Wang and Xiaoou Tang, "Deep Learning Face Attributes in the Wild", in IEEE International Conference on Computer Vision (ICCV), 2015 
 * **CelebA-HQ** was collected from CelebA and further post-processed by the following paper :<br/>
 Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and Variation", in Internation Conference on Reoresentation Learning (ICLR), 2018
-## Citation
+
+## License and Citation
+The use of this software is RESTRICTED to **non-commercial research and educational purposes**.
 ```
 @article{CelebAMask-HQ,
   title={MaskGAN: Towards Diverse and Interactive Facial Image Manipulation},
@@ -39,4 +41,3 @@ Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and
 }
 ```
 The above work is still in submission.
-
