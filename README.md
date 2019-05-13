@@ -22,7 +22,7 @@ CelebAMask-HQ can be used on several research fields including: facial image man
 
 ## Downloads
 * Google Drive: [downloading link](https://drive.google.com/open?id=1JP_Db1PW75K3B4KaiSwnxF1Fc-wSRz6Q)
-* Baidu Drive: [downloading link](https://pan.baidu.com/s/187UzrhZ24V6aG99p6UPdMA)
+* Baidu Drive: [downloading link](https://pan.baidu.com/s/1wN1E-B1bJ7mE1mrn9loj5g)
 
 ## Related work
 * **CelebA** dataset :<br/>
