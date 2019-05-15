@@ -21,7 +21,7 @@ CelebAMask-HQ can be used on several research fields including: facial image man
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample_interactive.png)
 
 ## Downloads
-* Google Drive: [downloading link](https://drive.google.com/open?id=1JP_Db1PW75K3B4KaiSwnxF1Fc-wSRz6Q)
+* Google Drive: [downloading link](https://drive.google.com/open?id=1badu11NqxGf6qM3PTTooQDJvQbejgbTv)
 * Baidu Drive: [downloading link](https://pan.baidu.com/s/1wN1E-B1bJ7mE1mrn9loj5g)
 
 ## Related work
