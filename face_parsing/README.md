@@ -4,6 +4,7 @@ A Pytorch implementation face parsing model trained by CelebAMask-HQ
 * Pytorch 0.4.1
 * numpy
 * Python3
+* Pillow
 * opencv-python
 * tenseorboardX
 ## Training
