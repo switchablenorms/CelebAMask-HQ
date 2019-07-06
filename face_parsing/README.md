@@ -7,6 +7,9 @@ A Pytorch implementation face parsing model trained by CelebAMask-HQ
 * Pillow
 * opencv-python
 * tenseorboardX
+## Preprocessing
+* Move the mask folder under `./Data_preprocessing`
+* Run `python g_mask.py`
 ## Training
 * Run `bash run.sh #GPU_num`
 ## Well-trained model
@@ -23,7 +26,7 @@ A Pytorch implementation face parsing model trained by CelebAMask-HQ
 | 15: 'ear_r' | 16: 'neck_l' | 17: 'neck' |
 | 18: 'cloth' | | |
 
-* Acc: 93.41 ( train and evaluate according to CelebA train/test split )
+* Overall Acc: 93.41 ( train and evaluate according to CelebA train/test split )
 ## Testing
 * Run `bash run_test.sh #GPU_num`
 * Results will be saved in `./test_results`
