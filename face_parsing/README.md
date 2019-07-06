@@ -8,8 +8,9 @@ A Pytorch implementation face parsing model trained by CelebAMask-HQ
 * opencv-python
 * tenseorboardX
 ## Preprocessing
-* Move the mask folder under `./Data_preprocessing`
+* Move the mask folder and the image folder under `./Data_preprocessing`
 * Run `python g_mask.py`
+* Divide train/test split
 ## Training
 * Run `bash run.sh #GPU_num`
 ## Well-trained model
