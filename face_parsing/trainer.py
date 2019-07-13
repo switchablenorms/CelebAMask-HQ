@@ -110,15 +110,27 @@ class Trainer(object):
                 elapsed = time.time() - start_time
                 elapsed = str(datetime.timedelta(seconds=elapsed))
                 print("Elapsed [{}], G_step [{}/{}], Cross_entrophy_loss: {:.4f}".
-                      format(elapsed, step + 1, self.total_step, c_loss.data[0]))
+                      format(elapsed, step + 1, self.total_step, c_loss.data))
 
             label_batch_predict = generate_label(labels_predict)
             label_batch_real = generate_label(labels_real)
 
-            writer.add_scalar('Loss/Cross_entrophy_loss', c_loss.data[0], step) 
-            writer.add_image('imresult/img', (imgs.data + 1) / 2.0, step) 
-            writer.add_image('imresult/real', label_batch_real, step)
-            writer.add_image('imresult/predict', label_batch_predict, step)
+	    # scalr info on tensorboardX		
+            writer.add_scalar('Loss/Cross_entrophy_loss', c_loss.data, step) 
+
+	    # image infor on tensorboardX
+	    label_batch_real = torch.from_numpy(label_batch_real)
+	    label_batch_predict = torch.from_numpy(label_batch_predict)
+	    img_combine = imgs[0]
+	    real_combine = label_batch_real[0]
+	    predict_combine = label_batch_predict[0]
+	    for i in range(1, self.batch_size):
+	        img_combine = torch.cat([img_combine, imgs[i]], 2)
+	        real_combine = torch.cat([real_combine, label_batch_real[i]], 2)
+	        predict_combine = torch.cat([predict_combine, label_batch_predict[i]], 2)
+	    writer.add_image('imresult/img', (img_combine.data + 1) / 2.0, step)
+            writer.add_image('imresult/real', real_combine, step)
+            writer.add_image('imresult/predict', predict_combine, step)
 
             # Sample images
             if (step + 1) % self.sample_step == 0:
