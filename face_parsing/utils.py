@@ -52,7 +52,7 @@ def labelcolormap(N):
     return cmap
 
 class Colorize(object):
-    def __init__(self, n=35):
+    def __init__(self, n=19):
         self.cmap = labelcolormap(n)
         self.cmap = torch.from_numpy(self.cmap[:n])
 
@@ -97,6 +97,7 @@ def generate_label(inputs):
         label_batch.append(tensor2label(p, 19))
                 
     label_batch = np.array(label_batch)
+    label_batch = torch.from_numpy(label_batch)	
 
     return label_batch
 

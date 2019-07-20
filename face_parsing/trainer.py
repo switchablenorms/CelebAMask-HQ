@@ -119,8 +119,6 @@ class Trainer(object):
             writer.add_scalar('Loss/Cross_entrophy_loss', c_loss.data, step) 
 
 	    # image infor on tensorboardX
-	    label_batch_real = torch.from_numpy(label_batch_real)
-	    label_batch_predict = torch.from_numpy(label_batch_predict)
 	    img_combine = imgs[0]
 	    real_combine = label_batch_real[0]
 	    predict_combine = label_batch_predict[0]
