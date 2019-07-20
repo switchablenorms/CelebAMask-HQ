@@ -108,7 +108,7 @@ class Tester(object):
 	    labels_predict_color = generate_label(labels_predict)	
             for k in range(self.batch_size):
                 cv2.imwrite(os.path.join(self.test_label_path, str(i * self.batch_size + k) +'.png'), labels_predict_plain[k])
-	        save_image(labels_predict_color[k], os.path.join(self.test_label_path, str(i * self.batch_size + k) +'.png'))
+	        save_image(labels_predict_color[k], os.path.join(self.test_color_label_path, str(i * self.batch_size + k) +'.png'))
 	
     def build_model(self):
         self.G = unet().cuda()
