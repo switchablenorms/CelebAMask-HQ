@@ -28,6 +28,7 @@ A Pytorch implementation face parsing model trained by CelebAMask-HQ
 | 18: 'cloth' | | |
 
 * Overall Acc: 93.41 ( train and evaluate according to CelebA train/test split )
-## Testing
+## Testing & Color visualization
 * Run `bash run_test.sh #GPU_num`
 * Results will be saved in `./test_results`
+* Color visualized resultd will be saved in `./test_color_visualize`
