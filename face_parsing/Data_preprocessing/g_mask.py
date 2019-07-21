@@ -15,24 +15,15 @@ img_num = 30000
 make_folder(folder_save)
 
 for k in range(img_num):
-	d_1 = k / 10000
-	d_2 = (k / 1000) % 10
-	d_3 = (k / 100) % 10
-	d_4 = (k / 10) % 10
-	d_5 = k % 10 
 	folder_num = k / 2000
-				
 	im_base = np.zeros((512, 512))
 	for idx, label in enumerate(label_list):
-		filename = os.path.join(folder_base, str(folder_num), str(d_1) + str(d_2) + str(d_3) + str(d_4) + str(d_5) + '_' + label + '.png')
+		filename = os.path.join(folder_base, str(folder_num), str(k).rjust(5, '0') +  + '_' + label + '.png')
 		if (os.path.exists(filename)):
 			print (label, idx+1)
 			im=cv2.imread(filename)
 			im = im[:, :, 0]
-			for i in range(512):
-				for j in range(512):
-					if im[i][j] != 0:
-						im_base[i][j] = (idx + 1)
+			im_base[im != 0] = (idx + 1)
 	
 	filename_save = os.path.join(folder_save, str(k) + '.png')
 	print (filename_save)
