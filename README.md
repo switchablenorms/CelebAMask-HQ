@@ -1,5 +1,9 @@
 # CelebAMask-HQ
+
+[[Paper]]() [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)  
+
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/front.jpeg)
+
 **CelebAMask-HQ** is a large-scale face image dataset that has **30,000** high-resolution face images selected from the CelebA dataset by following CelebA-HQ. Each image has segmentation mask of facial attributes corresponding to CelebA.
 
 The masks of CelebAMask-HQ were manually-annotated with the size of **512 x 512** and **19 classes** including all facial components and accessories such as skin, nose, eyes, eyebrows, ears, mouth, lip, hair, hat, eyeglass, earring, necklace, neck, and cloth. 
@@ -9,15 +13,18 @@ CelebAMask-HQ can be used to **train and evaluate algorithms of face parsing, fa
 * If you need the identity labels and the attribute labels of the images, please send request to the [CelebA team](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html).
 
 * Demo of interactive facial image manipulation
+
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/demo.gif)
 
 ## Sample Images
+
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample.png)
 
 ## Research Projects with CelebAMask-HQ
 CelebAMask-HQ can be used on several research fields including: facial image manipulation, face parsing, face recognition, and face hallucination. We construct an application on interactive facial image manipulation as bellow:
 
 * Samples of interactive facial image manipulation
+
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample_interactive.png)
 
 ## Downloads
