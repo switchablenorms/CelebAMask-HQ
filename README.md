@@ -1,6 +1,6 @@
 # CelebAMask-HQ
 
-[[Paper]]() [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)  
+[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)  
 
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/front.jpeg)
 
