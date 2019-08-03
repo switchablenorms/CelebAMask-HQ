@@ -45,7 +45,7 @@ The use of this software is RESTRICTED to **non-commercial research and educatio
 ```
 @article{CelebAMask-HQ,
   title={MaskGAN: Towards Diverse and Interactive Facial Image Manipulation},
-  author={Cheng-Han Lee and Ziwei Liu and Lingyun Wu and Ping Luo},
+  author={Lee, Cheng-Han and Liu, Ziwei and Wu, Lingyun and Luo, Ping},
   journal={arXiv preprint arXiv:1907.11922},
   year={2019}
 }
