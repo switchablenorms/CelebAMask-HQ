@@ -20,22 +20,25 @@ CelebAMask-HQ can be used to **train and evaluate algorithms of face parsing, fa
 
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample.png)
 
-## Research Projects with CelebAMask-HQ
-CelebAMask-HQ can be used on several research fields including: facial image manipulation, face parsing, face recognition, and face hallucination. We construct an application on interactive facial image manipulation as bellow:
+## New Face Manipulation Model with CelebAMask-HQ
+CelebAMask-HQ can be used on several research fields including: facial image manipulation, face parsing, face recognition, and face hallucination. We showcase an application on interactive facial image manipulation as bellow:
 
 * Samples of interactive facial image manipulation
 
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample_interactive.png)
 
-## Downloads
+## CelebAMask-HQ Dataset Downloads
 * Google Drive: [downloading link](https://drive.google.com/open?id=1badu11NqxGf6qM3PTTooQDJvQbejgbTv)
 * Baidu Drive: [downloading link](https://pan.baidu.com/s/1wN1E-B1bJ7mE1mrn9loj5g)
 
-## Related work
+## Related Works
 * **CelebA** dataset :<br/>
 Ziwei Liu, Ping Luo, Xiaogang Wang and Xiaoou Tang, "Deep Learning Face Attributes in the Wild", in IEEE International Conference on Computer Vision (ICCV), 2015 
 * **CelebA-HQ** was collected from CelebA and further post-processed by the following paper :<br/>
 Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and Variation", in Internation Conference on Reoresentation Learning (ICLR), 2018
+
+## Other Related Projects using CelebAMask-HQ
+* [SPADE-Tensorflow](https://github.com/taki0112/SPADE-Tensorflow)
 
 ## License and Citation
 The use of this software is RESTRICTED to **non-commercial research and educational purposes**.
