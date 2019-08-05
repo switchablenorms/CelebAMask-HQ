@@ -37,6 +37,11 @@ Ziwei Liu, Ping Luo, Xiaogang Wang and Xiaoou Tang, "Deep Learning Face Attribut
 * **CelebA-HQ** was collected from CelebA and further post-processed by the following paper :<br/>
 Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and Variation", in Internation Conference on Reoresentation Learning (ICLR), 2018
 
+## Dataset Agreement
+* The CelebAMask-HQ dataset is available for **non-commercial research purposes** only.
+* You agree **not to** reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the images and any portion of derived data.
+* You agree **not to** further copy, publish or distribute any portion of the CelebAMask-HQ dataset. Except, for internal use at a single site within the same organization it is allowed to make copies of the dataset.
+
 ## Related Projects using CelebAMask-HQ
 * [SPADE-Tensorflow](https://github.com/taki0112/SPADE-Tensorflow)
 
