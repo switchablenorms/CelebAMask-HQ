@@ -91,7 +91,8 @@ class Tester(object):
         test_paths = make_dataset(self.test_image_path)
         make_folder(self.test_label_path, '')
         make_folder(self.test_color_label_path, '') 
-        self.G.load_state_dict(torch.load(os.path.join(self.model_save_path, self.model_name))) 
+        self.G.load_state_dict(torch.load(os.path.join(self.model_save_path, self.model_name)))
+        self.G.eval() 
         batch_num = int(self.test_size / self.batch_size)
 	
         for i in range(batch_num):

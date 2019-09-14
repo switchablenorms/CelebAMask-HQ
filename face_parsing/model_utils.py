@@ -204,9 +204,9 @@ class unetConv2(nn.Module):
 
 
 class unetUp(nn.Module):
-    def __init__(self, in_size, out_size, is_deconv):
+    def __init__(self, in_size, out_size, is_deconv, is_batchnorm):
         super(unetUp, self).__init__()
-        self.conv = unetConv2(in_size, out_size, False)
+        self.conv = unetConv2(in_size, out_size, is_batchnorm)
         if is_deconv:
             self.up = nn.ConvTranspose2d(in_size, out_size, kernel_size=2, stride=2)
         else:
