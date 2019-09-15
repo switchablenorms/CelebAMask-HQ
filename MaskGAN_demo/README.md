@@ -10,3 +10,5 @@
 * pyyaml
 ## Manual of PyQt5
 Please refer to [QPixmap](https://doc.qt.io/qtforpython/PySide2/QtGui/QPixmap.html#PySide2.QtGui.PySide2.QtGui.QPixmap.mask) and [Qimage](https://doc.qt.io/qtforpython/PySide2/QtGui/QImage.html)
+## Acknowledgement
+We acknowledge the official code [SC-FEGAN](https://github.com/run-youngjoo/SC-FEGAN)
