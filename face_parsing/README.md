@@ -14,7 +14,7 @@ A Pytorch implementation face parsing model trained by CelebAMask-HQ
 ## Training
 * Run `bash run.sh #GPU_num`
 ## Well-trained model
-* The model can be downloaded [here](https://drive.google.com/file/d/1Me181DqwnE-yptAh04cZ1wsHViYrZuhc/view?usp=sharing).
+* The model can be downloaded here.
 * Mask labels are defined as following:
 
 | Label list | | |
