@@ -14,7 +14,8 @@ A Pytorch implementation face parsing model trained by CelebAMask-HQ
 ## Training
 * Run `bash run.sh #GPU_num`
 ## Well-trained model
-* The model can be downloaded here.
+* The model can be downloaded [here](https://drive.google.com/file/d/1o1m-eT38zNCIFldcRaoWcLvvBtY8S4W3/view?usp=sharing).
+* The model (`model.pth`) should be put under `./models/parsenet`
 * Mask labels are defined as following:
 
 | Label list | | |
@@ -27,7 +28,7 @@ A Pytorch implementation face parsing model trained by CelebAMask-HQ
 | 15: 'ear_r' | 16: 'neck_l' | 17: 'neck' |
 | 18: 'cloth' | | |
 
-* Overall Acc: 93.41 ( train and evaluate according to CelebA train/test split )
+* Overall Per-pixel Acc: 93.42 ( train and evaluate according to CelebA train/test split )
 ## Testing & Color visualization
 * Run `bash run_test.sh #GPU_num`
 * Results will be saved in `./test_results`
