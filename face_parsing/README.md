@@ -33,3 +33,4 @@ A Pytorch implementation face parsing model trained by CelebAMask-HQ
 * Run `bash run_test.sh #GPU_num`
 * Results will be saved in `./test_results`
 * Color visualized results will be saved in `./test_color_visualize`
+* Another way for color visualization without using GPU: Run python `./Data_preprocessing/g_color.py` 
