@@ -15,7 +15,7 @@ img_num = 30000
 make_folder(folder_save)
 
 for k in range(img_num):
-	folder_num = k / 2000
+	folder_num = k // 2000
 	im_base = np.zeros((512, 512))
 	for idx, label in enumerate(label_list):
 		filename = os.path.join(folder_base, str(folder_num), str(k).rjust(5, '0') + '_' + label + '.png')
