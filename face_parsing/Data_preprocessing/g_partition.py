@@ -34,9 +34,6 @@ image_list = pd.read_csv('CelebA-HQ-to-CelebA-mapping.txt', delim_whitespace=Tru
 f_train = open('train_list.txt', 'w')
 f_val = open('val_list.txt', 'w')
 f_test = open('test_list.txt', 'w')
-attr_train = open('train_attr_list.txt', 'w')
-attr_val = open('val_attr_list.txt', 'w')
-attr_test = open('test_attr_list.txt', 'w')
 
 for idx, x in enumerate(image_list.loc[:, 1]):
     print (idx, x)
