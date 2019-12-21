@@ -8,7 +8,7 @@ A Pytorch implementation face parsing model trained by CelebAMask-HQ
 * opencv-python
 * tenseorboardX
 ## Preprocessing
-* Move the mask folder, the image folder, and `CelebA-HQ-to-CelebA-mapping.txt`(remove 1st line in advance) under `./Data_preprocessing`
+* Move the mask folder, the image folder, and `CelebA-HQ-to-CelebA-mapping.txt` ( remove 1st line in advance ) under `./Data_preprocessing`
 * Run `python g_mask.py`
 * Run  `python g_partition.py` to split train set and test set.
 ## Training
