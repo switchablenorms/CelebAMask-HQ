@@ -1,5 +1,5 @@
 ## How to run
-* Download the checkpoint file here: [link](https://drive.google.com/file/d/1AjhjO4tmIdTESQvFVX8Eaq06FkVEmxgo/view?usp=sharing)
+* Download the checkpoint file [here](https://drive.google.com/file/d/1AjhjO4tmIdTESQvFVX8Eaq06FkVEmxgo/view?usp=sharing)
 * run `python demo.py`
 ## Dependencies
 * Pytorch 0.4.1
