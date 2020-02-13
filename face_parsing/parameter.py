@@ -21,7 +21,7 @@ def get_parameters():
     parser.add_argument('--beta1', type=float, default=0.5)
     parser.add_argument('--beta2', type=float, default=0.999)
 
-    # Testing setting	
+    # Testing setting
     parser.add_argument('--test_size', type=int, default=2824) 
     parser.add_argument('--model_name', type=str, default='model.pth') 
 
