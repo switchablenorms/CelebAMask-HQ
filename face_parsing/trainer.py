@@ -95,8 +95,7 @@ class Trainer(object):
             labels_real = labels_real.scatter_(1, labels.data.long().cuda(), 1.0)
 
             imgs = imgs.cuda()
-            # ================== Train G and gumbel ================== #
-            # Create random noise
+            # ================== Train G =================== #
             labels_predict = self.G(imgs)
                        
             # Calculate cross entropy loss
