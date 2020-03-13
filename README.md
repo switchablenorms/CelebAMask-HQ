@@ -48,11 +48,10 @@ Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and
 ## License and Citation
 The use of this software is RESTRICTED to **non-commercial research and educational purposes**.
 ```
-@article{CelebAMask-HQ,
+@inproceedings{CelebAMask-HQ,
   title={MaskGAN: Towards Diverse and Interactive Facial Image Manipulation},
   author={Lee, Cheng-Han and Liu, Ziwei and Wu, Lingyun and Luo, Ping},
-  journal={arXiv preprint arXiv:1907.11922},
-  year={2019}
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2020}
 }
 ```
-The above work is still in submission.
