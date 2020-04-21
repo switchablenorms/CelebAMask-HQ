@@ -17,7 +17,6 @@ for k in range(img_num):
         im_base = np.zeros((512, 512, 3))
         im = Image.open(filename)
         im = np.array(im)
-        im = im[:, :, 0]
         for idx, color in enumerate(color_list):
             im_base[im == idx] = color
     filename_save = os.path.join(folder_save, str(k) + '.png')
