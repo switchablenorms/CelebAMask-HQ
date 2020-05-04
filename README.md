@@ -43,7 +43,8 @@ Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and
 * You agree **not to** further copy, publish or distribute any portion of the CelebAMask-HQ dataset. Except, for internal use at a single site within the same organization it is allowed to make copies of the dataset.
 
 ## Related Projects using CelebAMask-HQ
-* [SPADE-Tensorflow](https://github.com/taki0112/SPADE-Tensorflow)
+* [SPADE-TensorFlow](https://github.com/taki0112/SPADE-Tensorflow)
+* [FaceParsing-PyTorch](https://github.com/zllrunning/face-parsing.PyTorch)
 
 ## License and Citation
 The use of this software is RESTRICTED to **non-commercial research and educational purposes**.
