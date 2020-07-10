@@ -32,7 +32,7 @@ CelebAMask-HQ can be used on several research fields including: facial image man
 * Baidu Drive: [downloading link](https://pan.baidu.com/s/1wN1E-B1bJ7mE1mrn9loj5g)
 
 ## Related Works
-* **CelebA** dataset :<br/>
+* **CelebA** dataset:<br/>
 Ziwei Liu, Ping Luo, Xiaogang Wang and Xiaoou Tang, "Deep Learning Face Attributes in the Wild", in IEEE International Conference on Computer Vision (ICCV), 2015 
 * **CelebA-HQ** was collected from CelebA and further post-processed by the following paper :<br/>
 Karras et. al, "Progressive Growing of GANs for Improved Quality, Stability, and Variation", in Internation Conference on Reoresentation Learning (ICLR), 2018
