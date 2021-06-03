@@ -5,7 +5,7 @@ from shutil import copyfile
 from utils import make_folder
 
 #### source data path
-s_label = 'CelebAMask-HQ-label'
+s_label = 'CelebAMaskHQ-mask'
 s_img = 'CelebA-HQ-img'
 #### destination training data path
 d_train_label = 'train_label'
