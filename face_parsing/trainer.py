@@ -133,7 +133,7 @@ class Trainer(object):
             if (step + 1) % self.sample_step == 0:
                 labels_sample = self.G(imgs)
                 labels_sample = generate_label(labels_sample, self.imsize)
-                labels_sample = torch.from_numpy(labels_sample)
+                #labels_sample = torch.from_numpy(labels_sample)
                 save_image(denorm(labels_sample.data),
                            os.path.join(self.sample_path, '{}_predict.png'.format(step + 1)))
 
