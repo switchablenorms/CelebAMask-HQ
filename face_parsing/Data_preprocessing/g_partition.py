@@ -5,7 +5,7 @@ from shutil import copyfile
 from utils import make_folder
 
 #### source data path
-s_label = 'CelebAMask-HQ-label'
+s_label = 'CelebAMaskHQ-mask'
 s_img = 'CelebA-HQ-img'
 #### destination training data path
 d_train_label = 'train_label'
@@ -35,8 +35,9 @@ f_train = open('train_list.txt', 'w')
 f_val = open('val_list.txt', 'w')
 f_test = open('test_list.txt', 'w')
 
-for idx, x in enumerate(image_list.loc[:, 1]):
+for idx, x in enumerate(image_list.loc[1:, 1]):
     print (idx, x)
+    x = int(x)
     if x >= 162771 and x < 182638:
         copyfile(os.path.join(s_label, str(idx)+'.png'), os.path.join(d_val_label, str(val_count)+'.png'))
         copyfile(os.path.join(s_img, str(idx)+'.jpg'), os.path.join(d_val_img, str(val_count)+'.jpg'))        
