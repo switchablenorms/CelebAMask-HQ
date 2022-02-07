@@ -100,15 +100,46 @@ class Tester(object):
             for j in range(self.batch_size):
                 path = test_paths[i * self.batch_size + j]
                 img = transform(Image.open(path))
+                print(type(img))
+                print(img.size())
                 imgs.append(img)
+            print(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+            print(len(imgs))
+            print(type(imgs[0]))
+            print(imgs[0].size())
+            print(imgs[0].dtype)
+            
             imgs = torch.stack(imgs) 
             imgs = imgs.cuda()
+            # predict
             labels_predict = self.G(imgs)
-            labels_predict_plain = generate_label_plain(labels_predict)
-            labels_predict_color = generate_label(labels_predict)
+            print("what", labels_predict.size())
+            labels_predict_plain = generate_label_plain(labels_predict, 512)
+            print("오오", len(labels_predict_plain))
+            print("ahjksdfhjkahsdjkfhkajsdf", type(labels_predict_plain[0]))
+            print("ahjksdfhjkahsdjkfhkajsdf", labels_predict_plain[0].shape)
+            print("ahjksdfhjkahsdjkfhkajsdf", labels_predict_plain[0])
+            mask_label = labels_predict_plain[0] == 10
+            print(labels_predict_plain[0].dtype)
+            m = np.zeros((512,512), np.uint8)
+            print("mask", mask_label)
+            m[mask_label] = 255
+            print("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
+            print(m.shape)
+            print(m.dtype)
+            print(m)
+            
+            m = cv2.resize(m, (100, 100), 0, 0, interpolation=cv2.INTER_NEAREST)
+            cv2.imwrite(os.path.join(self.test_label_path, 'aa.png'), m)
+            
+            
+            # print(labels_predict_plain[0])
+            # print(type(labels_predict_plain[0]))
+            labels_predict_color = generate_label(labels_predict, 512)
             for k in range(self.batch_size):
                 cv2.imwrite(os.path.join(self.test_label_path, str(i * self.batch_size + k) +'.png'), labels_predict_plain[k])
                 save_image(labels_predict_color[k], os.path.join(self.test_color_label_path, str(i * self.batch_size + k) +'.png'))
+            exit()
 
     def build_model(self):
         self.G = unet().cuda()
@@ -116,4 +147,4 @@ class Tester(object):
             self.G = nn.DataParallel(self.G)
 
         # print networks
-        print(self.G)
+        # print(self.G)

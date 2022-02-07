@@ -101,6 +101,25 @@ def generate_label(inputs, imsize):
 
     return label_batch
 
+def generate_label_plain_test(inputs, w, h):
+    pred_batch = []
+    for input in inputs:
+        input = input.view(1, 19, w, h)
+        pred = np.squeeze(input.data.max(1)[1].cpu().numpy(), axis=0)
+        #pred = pred.reshape((1, 512, 512))
+        pred_batch.append(pred)
+
+    pred_batch = np.array(pred_batch)
+    pred_batch = torch.from_numpy(pred_batch)
+            
+    label_batch = []
+    for p in pred_batch:
+        label_batch.append(p.numpy())
+                
+    label_batch = np.array(label_batch)
+
+    return label_batch
+
 def generate_label_plain(inputs, imsize):
     pred_batch = []
     for input in inputs:
