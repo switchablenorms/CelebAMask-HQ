@@ -16,6 +16,12 @@ CelebAMask-HQ can be used to **train and evaluate algorithms of face parsing, fa
 
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/demo.gif)
 
+* Face Parsing Web Demo
+
+Integrated into [Huggingface Spaces 🤗](https://huggingface.co/spaces) using [Gradio](https://github.com/gradio-app/gradio). Try out the Web Demo: [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/hysts/CelebAMask-HQ-Face-Parsing)
+
+![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/demo.gif)
+
 ## Sample Images
 
 ![image](https://github.com/switchablenorms/CelebAMask-HQ/blob/master/images/sample.png)
